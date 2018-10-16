@@ -13,7 +13,7 @@
 		<State_Province>pomorskie</State_Province>
 		<Zip_Postal_Code>00-000</Zip_Postal_Code>
 		<Country>Poland</Country>
-		<Company_WebSite_URL>https://antiplagiarism.org</Company_WebSite_URL>
+		<Company_WebSite_URL>http://antiplagiarism.org</Company_WebSite_URL>
 		<Contact_Info>
 			<Author_First_Name>Dominik</Author_First_Name>
 			<Author_Last_Name>Mikuła</Author_Last_Name>
@@ -132,14 +132,14 @@ Antyplagiat jest w całości w polskiej oraz angielskiej wersji językowej ! Wsp
 	</Program_Descriptions>
 	<Web_Info>
 		<Application_URLs>
-			<Application_Info_URL>https://antiplagiarism.org/</Application_Info_URL>
-			<Application_Order_URL>https://antiplagiarism.org/payments.html</Application_Order_URL>
-			<Application_Screenshot_URL>https://antiplagiarism.org/assets/images/app/gallery/2-en.jpg</Application_Screenshot_URL>
-			<Application_Icon_URL>https://antiplagiarism.org/favicon.ico</Application_Icon_URL>
-			<Application_XML_File_URL>https://antiplagiarism.org/Antiplagiarism.xml</Application_XML_File_URL>
+			<Application_Info_URL>http://antiplagiarism.org/</Application_Info_URL>
+			<Application_Order_URL>http://antiplagiarism.org/payments.html</Application_Order_URL>
+			<Application_Screenshot_URL>http://antiplagiarism.org/assets/images/app/gallery/2-en.jpg</Application_Screenshot_URL>
+			<Application_Icon_URL>http://antiplagiarism.org/favicon.gif</Application_Icon_URL>
+			<Application_XML_File_URL>http://antiplagiarism.org/Antiplagiarism.xml</Application_XML_File_URL>
 		</Application_URLs>
 		<Download_URLs>
-			<Primary_Download_URL>https://antiplagiarism.org/downloads/Antiplagiarism_Demo.msi</Primary_Download_URL>
+			<Primary_Download_URL>http://antiplagiarism.org/downloads/Antiplagiarism_Demo.msi</Primary_Download_URL>
 			<Secondary_Download_URL>http://anty-plagiat.pl/downloads/Antyplagiat_Demo.msi</Secondary_Download_URL>
 			<Additional_Download_URL_1 />
 			<Additional_Download_URL_2 />
