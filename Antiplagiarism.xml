@@ -76,7 +76,7 @@
     <Program_Type>Demo</Program_Type>
     <Program_Release_Status>New Release</Program_Release_Status>
     <Program_Install_Support>Install and Uninstall</Program_Install_Support>
-    <Program_OS_Support>WinXP,Win7 x32,Win7 x64,Windows Vista Ultimate,Windows Vista Ultimate x64,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows 10,Windows 8</Program_OS_Support>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows 10,WinServer,WinOther,Windows2000,Windows2003,Windows Server 2012,Windows Tablet PC Edition 2005,Windows Media Center Edition 2005,WinVista,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,WinVista x64,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
     <Program_Language>English,Polish</Program_Language>
     <Program_Category_Class>Education::Other</Program_Category_Class>
     <Expire_Info>
@@ -143,7 +143,7 @@
     <Application_URLs>
       <Application_Info_URL>https://antiplagiarism.org/</Application_Info_URL>
       <Application_Order_URL>https://antiplagiarism.org/payments.html</Application_Order_URL>
-      <Application_Screenshot_URL>https://antiplagiarism.org/assets/images/app/gallery/2-en.jpg</Application_Screenshot_URL>
+      <Application_Screenshot_URL>https://antiplagiarism.org/assets/images/app/gallery/screenshot.jpg</Application_Screenshot_URL>
       <Application_Icon_URL>https://antiplagiarism.org/favicon.gif</Application_Icon_URL>
       <Application_XML_File_URL>https://antiplagiarism.org/Antiplagiarism.xml</Application_XML_File_URL>
     </Application_URLs>
@@ -178,29 +178,30 @@
       <Char_Desc_80>Antiplagiarism - program will check if your diploma thesis is not a plagiarism.</Char_Desc_80>
       <Char_Desc_250>Antiplagiarism - program will check if your diploma thesis is not a plagiarism.</Char_Desc_250>
       <Char_Desc_450>Antiplagiarism - program will check if your diploma thesis is not a plagiarism. The Antiplagiarism software detects a possibility of commiting plagiarism with the highest efficiency among solutions available on the market. A professional system analyzes text for plagiarism. Sophisticated algorithm automatically compares fragments of your thesis with Google search results.</Char_Desc_450>
-      <Char_Desc_2000>Antiplagiarism - program will check if your diploma thesis is not a plagiarism.                          The Antiplagiarism software detects a possibility of commiting plagiarism with the highest efficiency among solutions available on the market.
+      <Char_Desc_2000>Antiplagiarism - program will check if your diploma thesis is not a plagiarism. 
+The Antiplagiarism software detects a possibility of commiting plagiarism with the highest efficiency among solutions available on the market.
 A professional system analyzes text for plagiarism. Sophisticated algorithm automatically compares fragments of your thesis with Google search results. After completing the analysis process, the program indicates places in the text which can be treated as plagiarism of someone's text. Each such a fragment is highlighted in red color and the user can display web pages on which the analyzed fragment was published.
 
 Reliable
-The program copes well with both extensive diploma theses as well as short textes like an article or an essay.
+-The program copes well with both extensive diploma theses as well as short textes like an article or an essay.
 
 Support for PDF format
-Our program is one of the few that supports PDF format, so you will not be forced to convert your thesis to another format. Do not waste time and nerves on programs that only deal with plain text files.
+-Our program is one of the few that supports PDF format, so you will not be forced to convert your thesis to another format. Do not waste time and nerves on programs that only deal with plain text files.
 
 Support for format of Word program
-Antiplagiarism supports files with the DOCX extension, which is the format used in Microsoft Word, that is part of the Microsoft Office suite.
+-Antiplagiarism supports files with the DOCX extension, which is the format used in Microsoft Word, that is part of the Microsoft Office suite.
 
 Advanced search
-Fragments of your thesis will be compared with the results of the Google web search engine. Antiplagiarism app will search the websites with cheat sheets, essays, etc.
+-Fragments of your thesis will be compared with the results of the Google web search engine. Antiplagiarism app will search the websites with cheat sheets, essays, etc.
 
 Security
-By using our software you have guaranteed 100% of security - your texts will never leak to the internet. No third party has access to your thesis. Unlike online applications, the program does not upload files to any servers, everything is done locally on your computer.
+-By using our software you have guaranteed 100% of security - your texts will never leak to the internet. No third party has access to your thesis. Unlike online applications, the program does not upload files to any servers, everything is done locally on your computer.
 
 Various language versions
-The Antiplagiarism is entirely in the English and Polish language versions !
+-The Antiplagiarism is entirely in the English and Polish language versions !
 
 Technical support
-We offer full technical support, we are at your disposal - we invite you to contact us by phone or e-mail.</Char_Desc_2000>
+-We offer full technical support, we are at your disposal - we invite you to contact us by phone or e-mail.</Char_Desc_2000>
     </English>
     <Polish>
       <Keywords>plagiat,antyplagiat,anty-plagiat,program antyplagiatowy,sprawdź plagiat,wykryj plagiat,praca dyplomowa,zweryfikuj pracę,program do sprawdzania prac dyplomowych</Keywords>
@@ -212,23 +213,23 @@ We offer full technical support, we are at your disposal - we invite you to cont
 Oprogramowanie Antyplagiat wykrywa możliwość popełnienia plagiatu z najwyższą.
 Profesjonalny system analizuje tekst pod kątem wystąpienia plagiatu. Wyrafinowany algorytm automatycznie porównuje fragmenty pracy z wynikami wyszukiwarki Google. Po zakończeniu procesu analizy, program wskazuje miejsca w tekście, które mogą być potraktowane jako plagiat utworu. 
 
-Niezawodny 
-Program doskonale sobie radzi zarówno z bardzo obszernymi pracami dyplomowymi jak i niewielkimi tekstami typu artykuł czy wypracowanie. 
+Niezawodny
+-Program doskonale sobie radzi zarówno z bardzo obszernymi pracami dyplomowymi jak i niewielkimi tekstami typu artykuł czy wypracowanie. 
 
 Obsługa formatu PDF
-Nasz program jako jeden z nielicznych obsługuje format PDF, dzięki czemu nie będziesz zmuszony konwertować swojej pracy do innego formatu. Bez wątpienia obsługa formatu PDF jest tym co Nas wyróżnia na tle konkurencji ! Nie trać czasu i nerwów na programy, które radzą sobie tylko ze zwykłymi plikami tekstowymi. 
+-Nasz program jako jeden z nielicznych obsługuje format PDF, dzięki czemu nie będziesz zmuszony konwertować swojej pracy do innego formatu. Bez wątpienia obsługa formatu PDF jest tym co Nas wyróżnia na tle konkurencji ! Nie trać czasu i nerwów na programy, które radzą sobie tylko ze zwykłymi plikami tekstowymi. 
 
-Obsługa formatu programu Word 
-Antyplagiat obsługuje pliki o rozszerzeniu DOCX, który jest formatem stosowanym w programie Microsoft Word, wchodzącego w skład pakietu biurowego Microsoft Office. 
+Obsługa formatu programu Word
+-Antyplagiat obsługuje pliki o rozszerzeniu DOCX, który jest formatem stosowanym w programie Microsoft Word, wchodzącego w skład pakietu biurowego Microsoft Office. 
 
-Zaawansowane przeszukiwanie 
-Fragmenty Twojej pracy zostaną porównane z wynikami wyszukiwarki Google. Antyplagiat przeszuka serwisy ze ściągami, wypracowaniami oraz pracami dyplomowymi. 
+Zaawansowane przeszukiwanie
+-Fragmenty Twojej pracy zostaną porównane z wynikami wyszukiwarki Google. Antyplagiat przeszuka serwisy ze ściągami, wypracowaniami oraz pracami dyplomowymi. 
 
 Bezpieczeństwo
-Korzystając z Naszego oprogramowania masz zapewnione 100% bezpieczeństwa - Twoje teksty nigdy nie wyciekną do internetu. Żadna osoba trzecia nie ma do nich dostępu gdyż program, w odróżnieniu od aplikacji online, nie przesyła plików na żadne serwery, wszystko odbywa się na Twoim komputerze. 
+-Korzystając z Naszego oprogramowania masz zapewnione 100% bezpieczeństwa - Twoje teksty nigdy nie wyciekną do internetu. Żadna osoba trzecia nie ma do nich dostępu gdyż program, w odróżnieniu od aplikacji online, nie przesyła plików na żadne serwery, wszystko odbywa się na Twoim komputerze. 
 
 Różne wersje językowe
-Antyplagiat jest w całości w polskiej oraz angielskiej wersji językowej ! Wsparcie techniczne Oferujemy pełne wsparcie techniczne, jesteśmy do Państwa dyspozycji - zapraszamy do kontaktu telefonicznego oraz mailowego.</Char_Desc_2000>
+-Antyplagiat jest w całości w polskiej oraz angielskiej wersji językowej ! Wsparcie techniczne Oferujemy pełne wsparcie techniczne, jesteśmy do Państwa dyspozycji - zapraszamy do kontaktu telefonicznego oraz mailowego.</Char_Desc_2000>
     </Polish>
   </Program_Descriptions>
 </XML_DIZ_INFO>
