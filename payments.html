@@ -90,12 +90,12 @@
                                         <div class="row">
                                             <div class="item col-12 col-md-6">
                                                 <a href="#">
-                                                    <img class="active-payment payments img-icon ebay" src="assets/plugins/font-payments/logo_ebay.png">
+                                                    <img class="active-payment payments img-icon paypal" src="assets/plugins/font-payments/logo_paypal.png">
                                                 </a>
                                             </div>
                                             <div class="item col-12 col-md-6 opocity-default">
                                                 <a href="#">
-                                                    <img class="deactive-payment payments img-icon paypal" src="assets/plugins/font-payments/logo_paypal.png">
+                                                    <img class="deactive-payment payments img-icon ebay" src="assets/plugins/font-payments/logo_ebay.png">
                                                 </a>
                                             </div>
                                         </div>
@@ -162,6 +162,56 @@
             </div><!--//modal-content-->
         </div><!--//modal-dialog-->
     </div><!--//modal-->
+
+    <div class="modal fade" id="paypalModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Paypal</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form action="https://automater.pl/rest/form-transaction" method="POST">
+                    <div class="modal-body">
+
+                        <input type="hidden" name="language" value="en">
+                        <input type="hidden" name="send_status_email" value="y">
+                        <input type="hidden" name="connector_id" value="9484">
+                        <input type="hidden" name="products[0][id]" value="486195">
+
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" name="email" class="form-control" required="required">
+                            </div>
+                        </div>
+
+                        <div class="form-group row">
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Count</label>
+                            <div class="col-sm-10">
+                                <select class="custom-select mr-sm-2" name="products[0][quantity]" required="required">
+                                    <option value="1" selected="selected">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="5">5</option>
+                                    <option value="10">10</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <input type="hidden" name="return_url" value="https://antiplagiarism.org">
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                        <button type="submit" class="btn btn-info">Pay the order</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
     <!-- Javascript -->
     <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
@@ -177,7 +227,7 @@
     <script type="text/javascript" src="assets/js/animations.js"></script>
 
     <script>
-        var whatPayment = "ebay";
+        var whatPayment = "paypal";
 
         $(".payments").each(function (elem) {
             console.log($(this));
@@ -214,7 +264,7 @@
             } else if (whatPayment == "ebay") {
                 window.open("https://www.ebay.com/itm/382567802257", '_blank');
             } else if (whatPayment == "paypal") {
-                window.open("https://automater.pl/purchase/486195/antiplagiarism.html", '_blank');
+                $("#paypalModal").modal('show');
             }
         })
 
