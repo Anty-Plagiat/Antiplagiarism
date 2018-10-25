@@ -208,7 +208,7 @@
                         <h3 class="title">
                             Simplicity and convenience
                             <div class="d-none d-md-block">
-                                
+
                             </div>
                         </h3>
                         <p>The program is very simple and convenient to use. All you have to do is choose the thesis you want to check against plagiarism and then click START.</p>
@@ -251,9 +251,9 @@
                         <div class="d-none d-md-block">
                             <br/><br/>
                         </div>
-                            <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-11">Find out more</button>
-                        </div><!--//content-->
-                    </div><!--//item-->
+                        <button class="modal-trigger btn btn-link" data-toggle="modal" data-target="#feature-modal-11">Find out more</button>
+                    </div><!--//content-->
+                </div><!--//item-->
                 <div class="item col-lg-3 col-md-6 col-12 text-center">
                     <div class="icon">
                         <i class="fa fa-search"></i>
@@ -950,6 +950,27 @@
         </div>
     </div>
 
+    <div class="modal fade" id="successPaymentModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">The order has been paid</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    The application has been bought. The method of download and the activation key will be sent to the e-mail address provided. Thank you.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-info" data-dismiss="modal">OK</button>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
     <script type="text/javascript" src="assets/plugins/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="assets/plugins/popper.min.js"></script>
     <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
@@ -968,6 +989,17 @@
     <script type="text/javascript" src="assets/plugins/jssor/jssor.slider.min.js"></script>
 
     <script>
+        function GetUrlVars() {
+            var vars = [], hash;
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for (var i = 0; i < hashes.length; i++) {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+            return vars;
+        }
+
         (function ($, win) {
             $.fn.inViewport = function (cb) {
                 return this.each(function (i, el) {
@@ -995,6 +1027,10 @@
 
 
         $(document).ready(function () {
+
+            if (GetUrlVars()["payment"] === "success") {
+                $("#successPaymentModal").modal('show');
+            }
 
             var jssor_1_SlideshowTransitions = [
                 { $Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
