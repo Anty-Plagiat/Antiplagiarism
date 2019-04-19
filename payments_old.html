@@ -177,8 +177,8 @@
 
                         <input type="hidden" name="language" value="en">
                         <input type="hidden" name="send_status_email" value="y">
-                        <input type="hidden" name="connector_id" value="9484">
-                        <input type="hidden" name="products[0][id]" value="486195">
+                        <input type="hidden" name="connector_id" value="">
+                        <input type="hidden" name="products[0][id]" value="">
 
                         <div class="form-group row">
                             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
@@ -264,7 +264,7 @@
             } else if (whatPayment == "ebay") {
                 window.open("https://www.ebay.com/itm/382567802257", '_blank');
             } else if (whatPayment == "paypal") {
-                $("#paypalModal").modal('show');
+            //    $("#paypalModal").modal('show');
             }
         })
 
