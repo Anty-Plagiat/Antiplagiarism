@@ -93,11 +93,6 @@
                                                     <img class="active-payment payments img-icon paypal" src="assets/plugins/font-payments/logo_paypal.png">
                                                 </a>
                                             </div>
-                                            <div class="item col-12 col-md-6 opocity-default">
-                                                <a href="#">
-                                                    <img class="deactive-payment payments img-icon ebay" src="assets/plugins/font-payments/logo_ebay.png">
-                                                </a>
-                                            </div>
                                         </div>
                                     </div>
                                     <hr>
@@ -177,8 +172,8 @@
 
                         <input type="hidden" name="language" value="en">
                         <input type="hidden" name="send_status_email" value="y">
-                        <input type="hidden" name="connector_id" value="">
-                        <input type="hidden" name="products[0][id]" value="">
+                        <input type="hidden" name="connector_id" value="48297">
+                        <input type="hidden" name="products[0][id]" value="737740">
 
                         <div class="form-group row">
                             <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
@@ -188,7 +183,7 @@
                         </div>
 
                         <div class="form-group row">
-                            <label for="staticEmail" class="col-sm-2 col-form-label">Count</label>
+                            <label for="staticEmail" class="col-sm-2 col-form-label">Quantity</label>
                             <div class="col-sm-10">
                                 <select class="custom-select mr-sm-2" name="products[0][quantity]" required="required">
                                     <option value="1" selected="selected">1</option>
@@ -253,18 +248,27 @@
                 else if ($(this).hasClass("paypal")) {
                     whatPayment = "paypal"
                 }
-
+                else if ($(this).hasClass("dotpay")) {
+                    whatPayment = "dotpay"
+                }
+                else if ($(this).hasClass("amazon")) {
+                    whatPayment = "amazon"
+                }
             });
 
         });
 
         $("#paymentButton").click(function () {
             if (whatPayment == "allegro") {
-                window.open("https://allegro.pl/uzytkownik/Anty-Plagiat_pl?order=m", '_blank');
+                window.open("https://allegro.pl/uzytkownik/Veaware?order=m", '_blank');
             } else if (whatPayment == "ebay") {
                 window.open("https://www.ebay.com/itm/382567802257", '_blank');
             } else if (whatPayment == "paypal") {
-            //    $("#paypalModal").modal('show');
+                $("#paypalModal").modal('show');
+            } else if (whatPayment == "dotpay") {
+                window.open("https://dotpay.pl", '_blank');
+            } else if(whatPayment == "amazon") {
+                window.open("https://amazon.com", '_blank');
             }
         })
 
