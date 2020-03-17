@@ -1258,7 +1258,7 @@
                             })
                     });
 
-                    $("#sendEmail").click(function () {
+                       $("#sendEmail").click(function () {
 
                         sendEmailForm.classList.add('was-validated');
 
@@ -1268,20 +1268,21 @@
                         $.post("https://veaware.com/rest/email",
                             {
                                 email: $("#email").val(),
-                                subject: "Message from the customer:" + $("#name").val(),
+                                subject: "Wiadomość od klienta:" + $("#name").val(),
                                 message: $("#message").val()
                             },
                             function (data, status) {
-                                data = $.parseJSON(data)
-                                if (data.success) {
-                                    $("#sendEmailResult").text("Message was sent. We will respond to your message as soon as possible.");
+							var isSuccess = !!data.replace("ujjhun", "");
+
+                                if (isSuccess) {
+                                    $("#sendEmailResult").text("Wiadomość została wysłana. Odpowiemy na Twoją wiadomość najszybciej, jak to będzie możliwe.");
                                 }
                                 else {
-                                    $("#sendEmailResult").text("Unfortunately, the message was not delivered. Sorry for that.");
+                                    $("#sendEmailResult").text("Niestety wiadomość nie została dostarczona. Przepraszamy.");
                                 }
                                 $("#sendEmailModal").modal()
 
-                            }, "json");
+                            }, "text");
                     });
                 </script>
                 <!--<![endif]-->
