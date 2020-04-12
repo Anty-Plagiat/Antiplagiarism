@@ -1,3 +1,4 @@
+Sitemap: https://antiplagiarism.org/sitemap.xml
 User-agent: *
 Disallow: /assets/css/
 Disallow: /assets/js/
