@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Eliminate plagiarism from your diploma thesis ! The Antiplagiarism software detects a possibility of commiting plagiarism with the highest efficiency.">
-    <meta name="keywords" content="plagiarism,antiplagiarism,anti-plagiarism,antiplagiarism program,plagiarism checker,plagiarism detector,diploma thesis,thesis,master's thesis,verify thesis,plagiarism detection software">
+    <meta name="keywords" content="plagiarism,antiplagiarism,anti-plagiarism,antiplagiarism windows, antiplagiarism mac os, antiplagiarism macos, antiplagiarism mac os x,antiplagiarism program,plagiarism checker,plagiarism detector,diploma thesis,thesis,master's thesis,verify thesis,plagiarism detection software">
     <meta name="author" content="Antiplagiarism.org">
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="alternate" hreflang="pl" href="https://anty-plagiat.pl" />
@@ -94,11 +94,10 @@
                     </ul>
                     <div class="download-area">
                         <ul class="list-inline">
-                            <li class="win-download-btn-en list-inline-item"><a href="downloads/Antiplagiarism_Demo.msi" id="downloadDemo">Download demo</a></li>
-                            <li class="win-buy-btn-en list-inline-item"><a class="scrollto" href="#pricing">Buy now</a></li>
+                            <li class="win-buy-btn-en list-inline-item" style="margin-left:50px; margin-right:50px;"><a class="scrollto" href="#pricing">Buy now</a></li>
                         </ul>
                         <div class="note text-center">
-                            <p>Try demo<br />or buy full version !</p>
+                            <p>Buy full version for<br />Windows and Mac OS !</p>
                             <span class="left-arrow"></span>
                             <span class="right-arrow"></span>
                         </div><!--//note-->
@@ -493,17 +492,17 @@
                     </div><!--//item-->
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>On which system will I run the program ?</h3>
-                        <p class="answer">You can run Antiplagiarism on any computer with Windows system. A simple wizard will guide you by the hand through the process of installing the application.</p>
+                        <p class="answer">You can run Antiplagiarism on any computer with Windows or Mac OS system. A simple wizard will guide you by the hand through the process of installing the application.</p>
                     </div><!--//item-->
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>Is the software covered by warranty ?</h3>
-                        <p class="answer">We provide a lifetime warranty for our software. If the program does not work properly, you have 14 days to withdraw from the contract. We encourage you to try the demo version before purchasing the full version of the program.</p>
+                        <p class="answer">We provide a lifetime warranty for our software. If the program does not work properly, you have 14 days to withdraw from the contract.</p>
                     </div><!--//item-->
                 </div><!--//faq-col-->
                 <div class="faq-col col-md-6 col-12">
                     <div class="item">
-                        <h3 class="question"><i class="fa fa-question-circle"></i>What are the limitations of demo version ?</h3>
-                        <p class="answer">Demo version allows you to check a short text, containing a maximum of 100 sentences. The full version has no limits or restrictions - you get a lifetime license, free updates and full technical support.</p>
+                        <h3 class="question"><i class="fa fa-question-circle"></i>What are the limitations of software ?</h3>
+                        <p class="answer">The full version has no limits or restrictions - you get a lifetime license, free updates and full technical support.</p>
                     </div><!--//item-->
                     <div class="item">
                         <h3 class="question"><i class="fa fa-question-circle"></i>What file formats does the program support ?</h3>
@@ -679,6 +678,7 @@
                                 </div>
                                 <div class="content">
                                     <ul class="list-unstyled feature-list">
+                                        <li><i class="fa fa-check"></i>Windows and Mac OS</li>
                                         <li><i class="fa fa-check"></i>1 user</li>
                                         <li><i class="fa fa-check"></i>Lifetime license</li>
                                         <li><i class="fa fa-check"></i>Without any limits or restrictions</li>
@@ -753,7 +753,7 @@
         <div class="container">
             <small class="copyright pull-left">All rights reserved by &copy; <a href="https://antiplagiarism.org" target="_blank">Antiplagiarism.org</a></small>
             <ul class="links list-inline">
-                <li class="list-inline-item"></li>
+                <li class="list-inline-item"><a href="regulations.html"></a></li>
             </ul>
         </div>
     </footer><!--//footer-->
@@ -773,7 +773,7 @@
                             </div><!--//icon-->
                         </div><!--//item-->
                         <div class="content col-lg-9 col-12">
-                            <p>You get a lifetime license without any limits. You can run program on any computer with Windows system. Order takes 5 minutes to complete - immediately after the purchase you will receive a link to download the application and a license key.</p>
+                            <p>You get a lifetime license without any limits. You can run program on any computer with Windows or Mac OS system. Order takes 5 minutes to complete - immediately after the purchase you will receive a link to download the application and a license key.</p>
                         </div><!--//content-->
                     </div><!--//row-->
                 </div><!--//modal-body-->
@@ -1132,7 +1132,7 @@
 					if(!sourceOfVisit){
 						sourceOfVisit = "directly";
 					}
-					
+		
                     function GetUrlVars() {
                         var vars = [], hash;
                         var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
@@ -1168,91 +1168,91 @@
                         });
                     };
 
-                    $(document).ready(function () {
+    $(document).ready(function () {
 
-                        if (GetUrlVars()["payment"] === "success") {
-                            $("#successPaymentModal").modal('show');
-                        }
+        if (GetUrlVars()["payment"] === "success") {
+            $("#successPaymentModal").modal('show');
+        }
 
-                        var jssor_1_SlideshowTransitions = [
-                            { $Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: -0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: 0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: -0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: -0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: 0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, $Cols: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: 0.3, $Rows: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: 0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: 0.3, $Cols: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, y: -0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, $Rows: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: -0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
-                            { $Duration: 1200, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
-                        ];
+        var jssor_1_SlideshowTransitions = [
+            { $Duration: 1200, x: 0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: -0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: -0.3, $During: { $Left: [0.3, 0.7] }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, $SlideOut: true, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: 0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: -0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: -0.3, $During: { $Top: [0.3, 0.7] }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: 0.3, $SlideOut: true, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, $Cols: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: 0.3, $Rows: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: 0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: 0.3, $Cols: 2, $During: { $Top: [0.3, 0.7] }, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, y: -0.3, $Cols: 2, $SlideOut: true, $ChessMode: { $Column: 12 }, $Easing: { $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, $Rows: 2, $During: { $Left: [0.3, 0.7] }, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: -0.3, $Rows: 2, $SlideOut: true, $ChessMode: { $Row: 3 }, $Easing: { $Left: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, x: 0.3, y: 0.3, $Cols: 2, $Rows: 2, $During: { $Left: [0.3, 0.7], $Top: [0.3, 0.7] }, $SlideOut: true, $ChessMode: { $Column: 3, $Row: 12 }, $Easing: { $Left: $Jease$.$InCubic, $Top: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, $Delay: 20, $Clip: 3, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, $Delay: 20, $Clip: 3, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, $Delay: 20, $Clip: 12, $Assembly: 260, $Easing: { $Clip: $Jease$.$InCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 },
+            { $Duration: 1200, $Delay: 20, $Clip: 12, $SlideOut: true, $Assembly: 260, $Easing: { $Clip: $Jease$.$OutCubic, $Opacity: $Jease$.$Linear }, $Opacity: 2 }
+        ];
 
-                        var jssor_1_options = {
-                            $AutoPlay: 1,
-                            $SlideshowOptions: {
-                                $Class: $JssorSlideshowRunner$,
-                                $Transitions: jssor_1_SlideshowTransitions,
-                                $TransitionsOrder: 1
-                            },
-                            $ArrowNavigatorOptions: {
-                                $Class: $JssorArrowNavigator$
-                            },
-                            $ThumbnailNavigatorOptions: {
-                                $Class: $JssorThumbnailNavigator$,
-                                $SpacingX: 5,
-                                $SpacingY: 5
-                            }
-                        };
+        var jssor_1_options = {
+            $AutoPlay: 1,
+            $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+            },
+            $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+            },
+            $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $SpacingX: 5,
+                $SpacingY: 5
+            }
+        };
 
-                        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+        var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
 
-                        /*#region responsive code begin*/
+        /*#region responsive code begin*/
 
-                        var MAX_WIDTH = 1366;
+        var MAX_WIDTH = 1366;
 
-                        function ScaleSlider() {
-                            var containerElement = jssor_1_slider.$Elmt.parentNode;
-                            var containerWidth = containerElement.clientWidth;
+        function ScaleSlider() {
+            var containerElement = jssor_1_slider.$Elmt.parentNode;
+            var containerWidth = containerElement.clientWidth;
 
-                            if (containerWidth) {
+            if (containerWidth) {
 
-                                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+                var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
 
-                                jssor_1_slider.$ScaleWidth(expectedWidth);
-                            }
-                            else {
-                                window.setTimeout(ScaleSlider, 30);
-                            }
-                        }
+                jssor_1_slider.$ScaleWidth(expectedWidth);
+            }
+            else {
+                window.setTimeout(ScaleSlider, 30);
+            }
+        }
 
-                        ScaleSlider();
+        ScaleSlider();
 
-                        $(window).bind("load", ScaleSlider);
-                        $(window).bind("resize", ScaleSlider);
-                        $(window).bind("orientationchange", ScaleSlider);
+        $(window).bind("load", ScaleSlider);
+        $(window).bind("resize", ScaleSlider);
+        $(window).bind("orientationchange", ScaleSlider);
 
 
-                        $(".box-left").inViewport(function (px) {
-                            if (px) $(this).addClass("animated").addClass("fadeInLeft").addClass("delayp2");
-                        });
+        $(".box-left").inViewport(function (px) {
+            if (px) $(this).addClass("animated").addClass("fadeInLeft").addClass("delayp2");
+        });
 
-                        $(".box-right").inViewport(function (px) {
-                            if (px) $(this).addClass("animated").addClass("fadeInRight").addClass("delayp2");
-                        });
+        $(".box-right").inViewport(function (px) {
+            if (px) $(this).addClass("animated").addClass("fadeInRight").addClass("delayp2");
+        });
 
-                            $.post("https://veaware.com/rest/incrementEntries", {
+        $.post("https://veaware.com/rest/incrementEntries", {
             sourceOfVisit: sourceOfVisit, language: 'en' },
                             function (data, status) {
                             })
@@ -1269,7 +1269,7 @@
                     });
 
                     $("#downloadDemo").click(function () {
-                         $.post("https://veaware.com/rest/incrementDownloads", { sourceOfVisit: sourceOfVisit, language: 'en' },
+                        $.post("https://veaware.com/rest/incrementDownloads", { sourceOfVisit: sourceOfVisit, language: 'en' },
                             function (data, status) {
                             })
                     });
